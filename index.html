@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagochi</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="block">
+        <div id="blockImage">
+            <img src="img/azul.jpg" class="pet" id="pet" alt="img">
+        </div>
+        <div class="lado"><h2><strong>Status</strong></h2>
+        Fome:<div id="fome" class="bar">100%</div>
+        Higiene:<div id="banho" class="bar">100%</div>
+        Sono:<div id="sleep" class="bar">100%</div>
+        Diversão:<div id="happy" class="bar">100%</div>
+        Social:<div id="conv" class="bar">100%</div>
+    </div>
+        <div id="blockBtn">
+            <p><span class="btn" onclick="Comer()">Comer</span></p>
+            <p><span class="btn" onclick="Higiene()">Banho</span></p>
+            <p><span class="btn" onclick="Dormir()">Dormir</span></p>
+            <p><span class="btn" onclick="Brincar()">Brincar</span></p>
+            <p><span class="btn" onclick="Conv()">Conversar</span></p>
+        </div>
+        <h3><div id="menssage"></div></h3>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
